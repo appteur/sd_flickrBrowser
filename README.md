@@ -8,7 +8,9 @@ This flickr browser uses an instagram-like feed that loads images from flickr.
 It has built in search for images matching a given query and will also find images around your selected location. (It will use your gps location or allow you to select from a map.)
 
 ##### Things you should know
-I setup a configuration file in this app where you will need to place your flickr api key before you try to build and run this app. Look for this method and replace the defined string with your own api key.
+I setup a configuration file in this app where you will need to place your flickr api key before you try to build and run this app.  
+First open the file located in FlickrBrowser->Classes->Network->Config->SDNetworkConfig.m  
+Look for this method and replace the defined string with your own api key.
 
 ```objective-c
 
